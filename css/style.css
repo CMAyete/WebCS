@@ -1,0 +1,30 @@
+/*
+  Concierto Solidario, 2014
+  azul original: #6cb7fc
+  azul usado: #2977bf
+  
+  
+*/
+
+.navbar{
+  background-color: #FFFFFF;
+  border-top-color: #2977bf;
+  border-top-width: thick;
+  margin-bottom: 0px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    border-bottom-width: thick;
+    border-bottom-color: #2977bf;
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a .active {
+    background-color: none;
+    color: #6cb7fc;
+}
+
+body{
+  background-image: url('../img/bg.png');
+}
