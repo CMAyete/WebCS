@@ -138,11 +138,10 @@ body{
 */
 
 .jumbotron{
-  background-image: url('../img/bg2.jpg');
+  background-image: url('../img/jumbotron3.jpg');
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
-  height: 400px;
   color: #f4f4f4;
   text-align: center;
   padding-top: 10%;
@@ -154,7 +153,7 @@ body{
 
 #ysi{
   font-size: 50px;
-  margin-top: 6%;
+  margin-top: 3%;
 }
 
 .main{
@@ -215,7 +214,7 @@ body{
 
 .ayete{
   color: #216ea1;
-  background-image: url('../img/logoayete.png');
+  background-image: url('../img/logoayete1.png');
   background-repeat: no-repeat;
   display: block;
   height: 88px;
@@ -223,11 +222,16 @@ body{
   margin-top: 2%;
   margin-bottom: 1%;
   margin-left: 20%;
+  background-size: contain;
+}
+
+.ayete:hover{
+  background-image: url('../img/logoayete.png');
 }
 
 .orfeon{
   color: #216ea1;
-  background-image: url('../img/logoayete.png');
+  background-image: url('../img/logoorfeon.png');
   background-repeat: no-repeat;
   display: block;
   height: 88px;
@@ -235,6 +239,7 @@ body{
   margin-top: 2%;
   margin-bottom: 1%;
   margin-left: 25%;
+  background-size: contain
 }
 
 .sponsors{
@@ -257,16 +262,22 @@ body{
 
 .tecnun{
   color: #216ea1;
-  background-image: url('../img/logotecnun.png');
-  background-repeat: no-repeat	;
+  background-image: url('../img/logotecnun1.png');
+  background-repeat: no-repeat;
   display: block;
   height: 88px;
   width: 160px;
+  background-size: contain;
+}
+
+.tecnun:hover{
+  background-image: url('../img/logotecnun.png');
+  background-size: contain;
 }
 
 .caritas{
   color: #216ea1;
-  background-image: url('../img/logocaritas.png');
+  background-image: url('../img/logocaritas1.png');
   background-repeat: no-repeat;
   display: block;
   height: 88px;
@@ -274,15 +285,23 @@ body{
   background-size: contain;
 }
 
+.caritas:hover{
+  background-image: url('../img/logocaritas.png');
+}
+
 .ticketea{
   color: #216ea1;
-  background-image: url('../img/logoticketea.png');
+  background-image: url('../img/logoticketea1.png');
   background-repeat: no-repeat	;
   display: block;
   height: 50px;
   width: 160px;
   background-size: 100% auto;
   margin-top: 3%;
+}
+
+.ticketea:hover{
+  background-image: url('../img/logoticketea.png');
 }
 
 
@@ -320,12 +339,12 @@ body{
   padding-left: 4%;
 }
 
-.social h2{
+.especial{
   color: #0a273b;
   font-size: 16px;
 }
 
-.social h2:hover{
+.especial:hover{
   color: white;
   font-size: 16px;
 }
@@ -452,5 +471,18 @@ blockquote small{
   font-weight: 400;
 }
 
+.circulares{
+  width: 90%;
+}
 
+@media only screen and (max-width : 480px) {
+  .circulares{
+    width: 40px;
+  }
+}
 
+.tab-content{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
