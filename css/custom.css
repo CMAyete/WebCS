@@ -24,6 +24,13 @@ body{
   box-shadow:         -3px 0px 10px 0px #8F867F;  
 }
 
+@media only screen and (max-width : 980px) {
+    .wrapper{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
 .barra{
   color: #2977bf;
   background-color: #2977bf;
