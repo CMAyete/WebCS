@@ -312,6 +312,17 @@ body{
   padding-left: 4%;
 }
 
+.social h2{
+  color: #0a273b;
+  font-size: 16px;
+}
+
+.social h2:hover{
+  color: white;
+  font-size: 16px;
+}
+
+
 
 .logos{
   margin-left: 10%;
