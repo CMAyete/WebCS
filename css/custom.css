@@ -472,12 +472,12 @@ blockquote small{
 }
 
 .circulares{
-  width: 90%;
+  max-width: 90%;
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 980px) {
   .circulares{
-    width: 40px;
+    max-width: 100%;
   }
 }
 
@@ -485,4 +485,12 @@ blockquote small{
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 2%;
+}
+
+.no-deco{
+  text-decoration: none;
+}
+
+.tab-pane p{
+  margin-top: 3%;
 }
