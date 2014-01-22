@@ -212,34 +212,12 @@ body{
   display: none;
 }
 
-.ayete{
-  color: #216ea1;
-  background-image: url('../img/logoayete1.png');
-  background-repeat: no-repeat;
-  display: block;
-  height: 88px;
-  width: 160px;
-  margin-top: 2%;
-  margin-bottom: 1%;
-  margin-left: 20%;
-  background-size: contain;
+.logopie{
+  margin-top: 3%;
 }
 
-.ayete:hover{
-  background-image: url('../img/logoayete.png');
-}
-
-.orfeon{
-  color: #216ea1;
-  background-image: url('../img/logoorfeon.png');
-  background-repeat: no-repeat;
-  display: block;
-  height: 88px;
-  width: 160px;
-  margin-top: 2%;
-  margin-bottom: 1%;
-  margin-left: 25%;
-  background-size: contain
+#ticketea{
+  margin-top: 6%;
 }
 
 .sponsors{
@@ -258,50 +236,6 @@ body{
 .sponsors img{
   padding-top: 1%;
   padding-left: 15%;
-}
-
-.tecnun{
-  color: #216ea1;
-  background-image: url('../img/logotecnun1.png');
-  background-repeat: no-repeat;
-  display: block;
-  height: 88px;
-  width: 160px;
-  background-size: contain;
-}
-
-.tecnun:hover{
-  background-image: url('../img/logotecnun.png');
-  background-size: contain;
-}
-
-.caritas{
-  color: #216ea1;
-  background-image: url('../img/logocaritas1.png');
-  background-repeat: no-repeat;
-  display: block;
-  height: 88px;
-  width: 128px;
-  background-size: contain;
-}
-
-.caritas:hover{
-  background-image: url('../img/logocaritas.png');
-}
-
-.ticketea{
-  color: #216ea1;
-  background-image: url('../img/logoticketea1.png');
-  background-repeat: no-repeat	;
-  display: block;
-  height: 50px;
-  width: 160px;
-  background-size: 100% auto;
-  margin-top: 3%;
-}
-
-.ticketea:hover{
-  background-image: url('../img/logoticketea.png');
 }
 
 

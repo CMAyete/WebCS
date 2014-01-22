@@ -74,7 +74,11 @@
       </section>
             <img class="media-object" src="img/zonas.png" alt="Zonas de Santa María del Coro" width="90%">
             
-<div id="tkt-content">Compra aquí tus entradas</div><script language="javascript" type="text/javascript" src="https://www.ticketea.com/conciertosolidario/buy?width=600px&height=600px&lang=es_es"></script><a href="https://www.ticketea.com/conciertosolidario" alt="Concierto Solidario de los Jóvenes" title="ticketea"><img src="https://www.ticketea.com/images/powered_by.png" alt="ticketea" /></a>
+    <a href="https://www.ticketea.com/conciertosolidario" class="hidden-md hidden-lg" title="Compra aquí tus entradas">
+              <img src="https://d18t9gwja9h9h.cloudfront.net/assets/images/buttons/es/buyhere.png" alt="Compra aquí tus entradas" />
+            </a>
+            
+<div class="hidden-xs hidden-sm"  id="tkt-content">Compra aquí tus entradas</div><script language="javascript" type="text/javascript" src="https://www.ticketea.com/conciertosolidario/buy?width=600px&height=600px&lang=es_es"></script><a class="hidden-xs hidden-sm" href="https://www.ticketea.com/conciertosolidario" alt="Concierto Solidario de los Jóvenes" title="ticketea"><img src="https://www.ticketea.com/images/powered_by.png" alt="ticketea" /></a>
 
     </article>
     
@@ -83,14 +87,24 @@
     <article class="mentions">
       <section class="organizers row">
         <h3>Organizado por:</h3>
-        <div class="ayete col-md-2"><h1>Colegio Mayor Ayete</h1></div>
-        <div class="orfeon col-md-2 col-md-offset-8"><h1>Colegio Mayor Ayete</h1></div>
+        <a href="http://www.ayete.es" class="col-md-3 col-md-offset-2 logopie">
+          <img src="img/logoayete.png" alt="Colegio Mayor Ayete" class="img-responsive" width="80%">
+        </a>
+        <a href="http://www.orfeondonostiarra.org/" class="col-md-3 col-md-offset-2 logopie">
+          <img src="img/logoorfeon1.tiff" alt="Orfeón Donostiarra" class="img-responsive" width="50%">
+        </a>
       </section>
       <section class="sponsors row">
         <h3>Con la colaboración de:</h3>
-        <div class="tecnun col-md-2"><h1>Tecnun Escuela de Ingenieros de la Universidad de Navarra</h1></div>
-        <div class="caritas col-md-2"><h1>Cáritas</h1></div>
-        <div class="ticketea col-md-2"><h1>Ticketea</h1></div>
+        <a href="http://www.tecnun.es" class="col-md-2 col-md-offset-1 logopie">
+          <img src="img/logotecnun.png" alt="Tecnun Escuela de Ingenieros de la Universidad de Navarra" class="img-responsive" width="100%">
+        </a>
+        <a href="http://www.caritasgipuzkoa.org/" class="col-md-2 col-md-offset-1 logopie">
+          <img src="img/logocaritas.png" alt="Cáritas" class="img-responsive" width="90%">
+        </a>
+        <a href="http://www.ticketea.com/" class="col-md-2 col-md-offset-1 logopie" id="ticketea">
+          <img src="img/logoticketea.png" alt="Ticketea" class="img-responsive" width="100%">
+        </a>
       </section>
     </article>
     
@@ -99,20 +113,26 @@
         <section class="social col-md-3">
           <h3>Síguenos en:</h3>
           <div class="logos row">
-            <span class="fa-stack fa-lg change col-md-4">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
+            <a href="https://twitter.com/CSolidarioDSS">
+              <span class="fa-stack fa-lg change col-md-4">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+              </span>
+            </a>
             
-            <span class="fa-stack fa-lg change col-md-4">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>
-  
+            <a href="https://es-es.facebook.com/Ayete">
+              <span class="fa-stack fa-lg change col-md-4">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+              </span>
+            </a>
+            
+            <a href="http://www.youtube.com/watch?v=6QVUM6T6hTY">
             <span class="fa-stack fa-lg change col-md-4">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-youtube fa-stack-1x"></i>
             </span>
+            </a>
           </div>
           <h3>O escríbenos en:</h3>
           <a href="mailto:info@concierto-solidario.es" target="_top"><h2 class="especial">info@concierto-solidario.es</h2></a>
@@ -127,7 +147,6 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </section>
       </article>
-
     </footer>
 
       
