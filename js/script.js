@@ -11,13 +11,10 @@ var target_date = new Date("February 28, 2014 20:00:00");
 
 
 // Variables for time units.
-var hours, minutes, seconds;
+var days
  
 // Get the elements that will hold the numbers.
 var $days = document.getElementById("d");
-var $hours = document.getElementById("h");
-var $minutes = document.getElementById("m");
-var $seconds = document.getElementById("s");
 
 // Calculate the countdown clock and set the HTML.
 function update() {
@@ -29,19 +26,9 @@ function update() {
     //seconds_left = seconds_left % 86400;
     
     days = parseInt(seconds_left / 86400);
-    
-    seconds_left = seconds_left % 3600; 
-    hours = parseInt(seconds_left / 3600);
-    
-     seconds_left = seconds_left % 3600; 
-    minutes = parseInt(seconds_left / 60);
-    seconds = parseInt(seconds_left % 60);
      
     // Format the number strings and put them in the elements.
     $days.innerHTML = pad(days, 2)
-    $hours.innerHTML = pad(hours, 2);
-    $minutes.innerHTML = pad(minutes, 2);
-    $seconds.innerHTML = pad(seconds, 2);
 }
 
 // Immediately update the HTML.
