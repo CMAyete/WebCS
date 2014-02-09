@@ -411,7 +411,7 @@ blockquote small{
 
 @media only screen and (max-width : 980px) {
   .circulares{
-    max-width: 100%;
+    max-width: 60px;
   }
 }
 
