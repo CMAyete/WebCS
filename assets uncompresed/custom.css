@@ -24,14 +24,6 @@ body{
   box-shadow:         -3px 0px 10px 0px #8F867F;  
 }
 
-@media only screen and (max-width : 980px) {
-    .wrapper{
-        width: 100%;
-        margin-left: 0px;
-    }
-}
-
-
 .barra{
   color: #2977bf;
   background-color: #2977bf;
@@ -214,6 +206,11 @@ body{
 
 .logopie{
   margin-top: 3%;
+}
+
+#caritas{
+  margin-left: 40%;
+  margin-right: 20%;
 }
 
 #ticketea{
@@ -409,11 +406,7 @@ blockquote small{
   max-width: 90%;
 }
 
-@media only screen and (max-width : 980px) {
-  .circulares{
-    max-width: 60px;
-  }
-}
+
 
 .tab-content{
   margin-left: 5%;
@@ -427,4 +420,23 @@ blockquote small{
 
 .tab-pane p{
   margin-top: 3%;
+}
+
+@media only screen and (min-width : 980px) {
+
+}
+
+@media only screen and (max-width : 980px) {
+    .wrapper{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .logopie{
+      max-width: 40%;
+    }
+    
+    .circulares{
+      max-width: 60px;
+    }
 }
