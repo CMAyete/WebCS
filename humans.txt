@@ -1,0 +1,36 @@
+
+/* MAIN */
+  Develop & Main Design: Ricardo J. García
+  Twitter: @rjgarciam
+  Site: -not yet-
+
+/* SITE */
+  Last update: 27/04/2014
+  Doctype: HTML5
+  IDE: Coda 2
+  Other tools: Pixelmator, Sublime Text 2
+  Framework: Twitter Bootstrap
+  Github: https://github.com/rjgarciam/Concierto-Solidario
+
+/* SPECIAL THANKS */
+  Content: Jordi Oliva
+  Twitter: @Jolivacodina
+
+  Organisers: Colegio Mayor Ayete
+  Twitter: @cmayete
+  Site: http://www.ayete.es/
+  
+  Performers: Orfeón Donostiarra
+  Site: http://www.orfeondonostiarra.org/es/
+
+/* Sponsors */
+
+  Ticket Management: Ticketea
+  Site: https://www.ticketea.com/
+  
+  Printing: Tama
+  Site: http://www.tamadocumentacion.com/inicio.php
+  
+
+
+  And, of course, Cáritas.

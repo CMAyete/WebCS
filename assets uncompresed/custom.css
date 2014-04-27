@@ -130,7 +130,7 @@ body{
 */
 
 .jumbotron{
-  background-image: url('../img/jumbotron3.jpg');
+  background-image: url('../img/jumbotron.jpg');
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -245,7 +245,6 @@ body{
   background-color: #094974;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 0px;
 }
 
 .entries{
@@ -329,23 +328,22 @@ i:hover {
 =============================================
 */
 
-.subfooter h1{
-  font-size: small;
-  font-weight: bold;
+.subpie{
+  background-color: #0a273b;
+  color: #075284;
+  max-width: 100%;
+  margin-left: 0px;
+  padding-left: 5%;
 }
 
-.nombre{
-  background-color: #052e48;
-  display: block;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 6%;
+.subpie h1{
+  font-size: small;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
-.nombre h1{
-  font-weight: 400;
-  font-size: small;
-  color: #b4b4b4
+.subpie a{
+  color: #004776
 }
 
 /*

@@ -1,7 +1,7 @@
 #Concierto Solidario de los Jóvenes
 
 Organised by Colegio Mayor Ayete   
-Version web 1.6
+Version: 2.0
 ***
 
 #####Technical Characteristics
@@ -10,6 +10,9 @@ Version web 1.6
 * Responsive design
 * HTML5 & CSS3
 * Ticket selling throught Ticketea.com
+* Google Analytics
+* Humans.txt
+
 
 
 
