@@ -3,14 +3,13 @@
   Develop & Main Design: Ricardo J. García
   Twitter: @rjgarciam
   Site: -not yet-
-
+  Github: https://github.com/rjgarciam
 /* SITE */
-  Last update: 27/04/2014
+  Last update: 13/01/2015
   Doctype: HTML5
   IDE: Coda 2
   Other tools: Pixelmator, Sublime Text 2
   Framework: Twitter Bootstrap
-  Github: https://github.com/rjgarciam/Concierto-Solidario
 
 /* SPECIAL THANKS */
   Content: Jordi Oliva
@@ -23,6 +22,9 @@
   Performers: Orfeón Donostiarra
   Site: http://www.orfeondonostiarra.org/es/
 
+  Performers: Orquesta de Musikene
+  Site: http://musikene.eus/
+  
 /* Sponsors */
 
   Ticket Management: Ticketea

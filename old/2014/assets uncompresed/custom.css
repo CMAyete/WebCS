@@ -1,0 +1,442 @@
+/*
+  Concierto Solidario, 2014
+  azul original: #6cb7fc
+  azul usado: #2977bf
+  
+  
+*/
+
+body{
+  background-image: url('../img/bg.png');
+}
+
+.wrapper{
+  margin-top: 4%;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  text-align: justify;
+  -moz-box-shadow:    3px 0px 10px 0px #8F867F;
+  -webkit-box-shadow: 3px 0px 10px 0px #8F867F;
+  box-shadow:         3px 0px 10px 0px #8F867F;
+  -moz-box-shadow:    -3px 0px 10px 0px #8F867F;
+  -webkit-box-shadow: -3px 0px 10px 0px #8F867F;
+  box-shadow:         -3px 0px 10px 0px #8F867F;  
+}
+
+.barra{
+  color: #2977bf;
+  background-color: #2977bf;
+  height: 10px;
+}
+
+.container{
+  width: 100%;
+}
+
+
+/*
+  Navigation
+=============================================
+*/
+
+
+/*Navigation StackOverflow*/
+
+/* navbar */
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #2977bf;
+    background-color: white;
+    border-bottom-color: #2977bf;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+.navbar{
+  background-color: #FFFFFF;
+  margin-bottom: 0px;
+}
+
+
+
+/*
+  main
+=============================================
+*/
+
+.jumbotron{
+  background-image: url('../img/jumbotron3.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  color: #f4f4f4;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.jumbotron h1{
+  font-size: 30px;
+}
+
+#ysi{
+  font-size: 50px;
+  margin-top: 3%;
+}
+
+.main{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.text{
+  padding-top: 2%;
+}
+
+.text p{
+  color: #444444;
+  font-size: medium;
+}
+
+.text h2{
+  color: #606060;
+  font-size: 22px;
+}
+
+.text h4{
+  color: #606060;
+  font-size: 16px;
+  padding-left: 2%;
+}
+
+
+
+.foto{
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 2%;
+  margin-bottom: 3%;
+}
+
+
+/*
+  mentions
+=============================================
+*/
+
+.mentions{
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #216ea1;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  border-top: 1px solid #a7a7a7;
+  color: #104161;
+
+}
+
+.mentions div h1{
+  display: none;
+}
+
+.logopie{
+  margin-top: 3%;
+}
+
+#caritas{
+  margin-left: 40%;
+  margin-right: 20%;
+}
+
+#ticketea{
+  margin-top: 6%;
+}
+
+.sponsors{
+  margin-top: 1%;
+  padding-bottom: 3%;
+}
+
+.sponsors h3{
+  margin-left: 2%;
+}
+
+.sponsors div{
+  margin-left: 13%;
+}
+
+.sponsors img{
+  padding-top: 1%;
+  padding-left: 15%;
+}
+
+
+/*
+  footer
+=============================================
+*/
+
+.pie{
+  background-color: #094974;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+}
+
+.entries{
+  text-align: center;
+  padding-left: 1%;
+}
+
+.entries h3{
+  color: #328fcd;
+}
+
+.entries h2{
+  color: #0a273b;
+}
+
+.entries h2:hover{
+  color: white;  
+}
+
+.social{
+  color: #328fcd;
+  padding-left: 4%;
+}
+
+.especial{
+  color: #0a273b;
+  font-size: 16px;
+}
+
+.especial:hover{
+  color: white;
+  font-size: 16px;
+}
+
+
+
+.logos{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.fa-lg{
+  padding-left: 10%;
+  font-size: 30px;
+}
+
+.fa-stack-2x{
+  color: #0a273b;
+}
+
+.fa-stack-1x{
+  color: #094974;
+}
+
+
+i:hover {
+  color: white;
+}
+
+
+.twitter h2{
+  color:#328fcd;
+  text-align: left;
+  font-size: large;
+}
+
+.twitter a{
+  text-decoration: none;
+  font-size: large;
+
+}
+
+.twitter a:hover{
+  color: white;
+}
+
+
+
+/*
+  subfooter
+=============================================
+*/
+
+.subfooter h1{
+  font-size: small;
+  font-weight: bold;
+}
+
+.nombre{
+  background-color: #052e48;
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 6%;
+}
+
+.nombre h1{
+  font-weight: 400;
+  font-size: small;
+  color: #b4b4b4
+}
+
+/*
+  motivos
+=============================================
+*/
+
+blockquote{
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-bottom: 6%;
+}
+
+blockquote h3{
+  font-weight: 400;
+  font-size: 24px;
+  color: #777;
+}
+
+blockquote small{
+  font-size: 12px;
+}
+
+.fotocentro{
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 30%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.conciencia{
+  font-size: large;
+  color: #444444;
+}
+
+.conciencia h4{
+  font-size: x-large;
+}
+
+.fotocentro2{
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 60%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+#santamaria{
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+  color: #777;
+  font-weight: 400;
+}
+
+.circulares{
+  max-width: 90%;
+}
+
+
+
+.tab-content{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.no-deco{
+  text-decoration: none;
+}
+
+.tab-pane p{
+  margin-top: 3%;
+}
+
+@media only screen and (min-width : 980px) {
+
+}
+
+@media only screen and (max-width : 980px) {
+    .wrapper{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .logopie{
+      max-width: 40%;
+    }
+    
+    .circulares{
+      max-width: 60px;
+    }
+}

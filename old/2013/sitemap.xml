@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+   <loc>http://www.concierto-solidario.es/</loc>
+   <priority>1</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/desahucios.html</loc>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/concierto.html</loc>
+   <priority>0.4</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/director.html</loc>
+   <priority>0.4</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/solistas.html</loc>
+   <priority>0.3</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/coral.html</loc>
+   <priority>0.4</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/musikene.html</loc>
+   <priority>0.3</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/compra.html</loc>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/colabora.html</loc>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/compra2.html</loc>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/donar.html</loc>
+   <priority>0.3</priority>
+</url>
+<url>
+   <loc>http://www.concierto-solidario.es/organiza.html</loc>
+   <priority>0.3</priority>
+</url>
+</urlset>

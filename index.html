@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="es-ES">
-  <head>
-  
-      <!--Tags and SEO
-    ================================-->
-    <meta charset="UTF-8">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<!-- BASICS -->
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Concierto Solidario de los Jóvenes</title>
-    <meta name="description" content="Concierto Solidario organizado por el Colegio Mayor Ayete, con la colaboración del Orfeón Donostiarra">
-    <meta name="keywords" content="Concierto, Solidario, Orfeon, Donostiarra, Ayete, Tecnun, Universidad de Navarra, San Sebastian">
+    <meta name="description" content="Concierto Solidario en el Kursaal organizado por el Colegio Mayor Ayete, con la colaboración del Orfeón Donostiarra y la orquesta de Musikene">
+    <meta name="keywords" content="Concierto, Solidario, Orfeon, Donostiarra,Musikene, Ayete, Tecnun, Universidad de Navarra, San Sebastian">
     <meta name="author" content="Ricardo José García Mora">
     <link type="text/plain" rel="author" href="/humans.txt" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<!-- Template -->
+		<link rel="stylesheet" type="text/css" media="screen" href="css/cookiecuttr.css">
+		<link rel="stylesheet" href="css/assets.min.css">
+		<link rel="stylesheet" href="css/isotope.css">
+
+		<!-- Custom -->
+    <link rel="stylesheet" href="css/style.css">
+		<!-- skin -->
+		<link rel="stylesheet" href="skin/default.css">
+		
+		    <link rel="icon" href="favicon.ico" type="image/x-icon">
+		    
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,158 +36,332 @@
       ga('send', 'pageview');
     
     </script>
+		    
+    </head>
+	 
+    <body>
+		<section id="header" class="appear"></section>
+		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+			 <div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">CS15</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+						<li class="active"><a href="#section-concierto">El concierto</a></li>
+						<li><a href="#section-aterpe">Cáritas</a></li>
+						<li><a href="#section-entradas">Entradas</a></li>
+						<li><a href="#section-ediciones">Ediciones anteriores</a></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+			</div>
+		</div>
 
-    <!--CSS and Js
-    ================================-->
-    <!-- Bootstrap -->
+		<section class="featured">
+			<div class="container"> 
+				<div class="row mar-bot40">
+					<div class="col-md-6 col-md-offset-3">
+						
+						<div class="align-center">
+							<p style="font-size: 1.5em;">
+							  Casa, familia, trabajo...</br>
+							  ¿Y si no los tuvieras? 
+							</p>
+							<h2 class="slogan">Ayúdanos a ayudar</h2>
+              <a href="#section-entradas"><button type="button" class="btn btn-success" style="font-size: 1em;">Kursaal 20/02/2015</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Sobre el concierto -->
+		<section id="section-concierto" class="section pad-bot30 bg-white">
+		<div class="container"> 
+			<div class="row mar-bot40">
+				<div class="col-lg-5" >
+					<div class="align-center">
+						<img src="img/logoMusikene.jpg" width="180px" alt="Logo de la Orquesta de Musikene, participante en el Concierto Solidario de los Jóvenes">
+						<p>La Orquesta Sinfónica de Musikene es el estandarte de los grandes conjuntos y formaciones que constituyen el proyecto educativo de Musikene, Centro Superior de Música del País Vasco. Esta integrada en su totalidad por estudiantes de la misma institución que adquieren una valiosa experiencia profesional mediante el contacto con diferentes profesores y directores, protagonizando paralelamente una importante labor de proyección cultural hacia la sociedad.<a type="button" data-toggle="modal" data-target="#ModalMusikene"> Leer más</a>
+						</p>
+					</div>
+				</div>
+			
+				<div class="col-lg-5 col-lg-offset-2" >
+					<div class="align-center">
+						<img src="img/logoOrfeon.jpg" width="180px" alt="Logo del Orfeón Donostiarra, participante en el Concierto Solidario de los Jóvenes">
+						<p>El Orfeón Donostiarra es una centenaria institución
+coral amateur fundada el 21 de enero
+de 1897 en la ciudad de San Sebastián (Guipúzcoa,
+España). Cuenta en su haber con un extenso
+palmarés de premios y galardones que le avalan
+como una de las agrupaciones corales más importantes
+del mundo. Objetivos como “conservar
+y difundir el canto vascongado” y una ejemplar filosofía
+de gestión le permiten hoy en día ser una
+entidad cultural de primer orden y muy reconocido
+prestigio.<a type="button" data-toggle="modal" data-target="#ModalOrfeon"> Leer más</a>
+						</p>
+					</div>
+				</div>
+			</div>
+      <h2>Novena Sinfonía de Beethoven</h2>
+			<div class="row">
+				<div class="col-md-12">
+          <div class="col-md-3"><img class="img-responsive" src="img/Beethoven.jpg" alt="Imagen de Aterpe, centro de Cáritas en Guipúzcoa"></div><p>El programa del Concierto Solidario 2015 está integrado por dos partes. En primer lugar, el Orfeón interpretará la Fantasía para piano, orquesta y coro en Do menor, Op. 80. de Beethoven. Por último, la Orquesta Sinfónica y el Orfeón interpretarán la Novena Sinfonía de Beethoven.</p>
+
+          <p>La Sinfonía n.o 9 en re menor, op. 125, conocida también como “Coral”, es la última sinfonía completa del compositor alemán Ludwig van Beethoven. Es una de las obras más trascendentales, importantes y populares de toda la música clásica, y también de toda la música y del arte. Su último movimiento es un final coral sorprendentemente inusual en su época que se ha convertido en símbolo de la libertad. Precisamente, una adaptación de la sinfonía, realizada por Herbert von Karajan es, desde 1972, el himno de la Unión Europea.</p>
+          
+
+				</div>
+			</div>
+		
+		</div>
+		</section>
+			
+		<!-- Cáritas -->
+		<section id="section-aterpe" class="section appear clearfix" style="background-color: white;">
+		<div class="container">
+
+			<div class="section-header">
+				<img src="img/caritas_negro.png" alt="logotipo de Cáritas" style="margin-bottom: 20px;" height="120px">
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+          <p>El proyecto al que se ayuda este año está relacionado
+con las personas sin hogar en San Sebastián
+y Gipuzkoa. El dinero servirá para diversos medios
+de ayuda a las personas sin hogar</p>
+
+          <p>Cáritas tiene una serie de centros que ayudan a
+personas en esta situación. Por ejemplo: Aterpe
+es un Centro de Día en el que se acoge, acompaña
+y ayuda tanto a la gente con problemas físicos y
+sociales, como a personas que, a causa de la pobreza,
+ha roto sus relaciones familiares y otros
+que aún mantienen sus vínculos sociales.</p>
+          <div class="col-md-3"><img class="img-responsive" src="img/aterpe.jpg" alt="Imagen de Aterpe, centro de Cáritas en Guipúzcoa"></div>
+
+          <p>Existen otro tipo de centros como Lamorus,
+taller educativo-ocupacional que trata de guiar
+a las personas en un proceso reincorporación a
+la sociedad. Existen también hogares de acogida
+como Trintxer, donde varones de entre 40 y 65
+años sin vivienda están dispuestos a participar
+activamente en el plan de reinserción individual. </p>
+          <p>En 2011, 165 voluntarios de Aterpe dispusieron
+de 300.000€ para atender a 574 personas. 55
+voluntarios alojaron a 142 personas en Hotzaldi
+con un presupuesto de 86.000€. Entre Lamorus y
+Txintxer sumaron 71 personas atendidas por 16
+voluntarios y un total de 527.000€.</p>
+          <p><b>Cáritas trabaja incansablemente en más de 200 paises por la dignidad de la persona humana, la justicia y la solidaridad. En España cuenta con más de 65.000 voluntarios y su ayuda llega a más de 6 millones de personas.</b></p>
+				</div>
+			</div>
+						
+		</div>
+		</section>
+		<!-- /about -->
+		
+		<!-- spacer section:stats -->
+		<section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
+			<div class="container">
+            <div class="align-center pad-top40 pad-bot40">
+                <blockquote class="bigquote color-white">Vivir sencillamente para que otros, sencillamente, puedan vivir.</blockquote>
+				<p class="color-white">Cáritas</p>
+            </div>
+			</div>	
+		</section>
+
+		<!-- Entradas -->
+		<section id="section-entradas" class="section appear clearfix">
+			<div class="container">
+				
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Venta de entradas</h2>
+							<p>Los precios de las entradas van desde los 19 a los 29 €</p>
+  						<button type="button" class="btn btn-success" style="font-size: 1em;">Comprar entradas</button>
+  						<a data-toggle="modal" data-target="#FilaCero" type="button"><button type="button" class="btn btn-success" style="font-size: 1em;">Fila Cero</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="alert alert-success" role="alert" style="line-height:1px;"><b>El concierto ha sido un éxito</b>. Muchas gracias por colaborar con nosotros, <b>nos vemos el año que viene</b></div>
+        <span class="label label-danger">Importante:</span><p>El servicio de autobuses desde <b>Pamplona</b> es gratuito. Para utilizarlo, escriba un e-mail a <b>info@conciertosolidario.org</b></p>
+				<div class="row mar-bot40">
+					<div class="col-md-12">
+						<div class="section-header">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Haz click aquí para ver el plano del Kursaal
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <a href="http://espectaculos.entradas.com/entradas/selEntradasNoNumEvento.do?idrecinto=2037&idevento=80431&identidad=1&fecha=20150220&hora=2000&idioma=es&ctsaffiliate=EES" alt="Comprar entradas para el concierto solidario de los jóvenes" target="_blank"><img src="img/kursaal.jpg" class="img-responsive col-md-8 col-md-offset-2 col-xs-12" alt="Distribución de entradas Kursaal"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</section>
+		
+		<!-- section works -->
+		<section id="section-ediciones" class="section appear clearfix">
+			<div class="container">
+				
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Ediciones anteriores</h2>
+							<p>Son ya VII las ediciones de este concierto. Aquí puedes acceder al sitio web de ediciones anteriores y ver la galería de imágenes</p>
+						</div>
+					</div>
+				</div>
+					
+                        <div class="row">
+                          <nav id="filter" class="col-md-12 text-center">
+                            <ul>
+                              <li><a href="#" class="current btn-theme btn-small" data-filter="*">Todo</a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".2014" >2014</a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".2013">2013</a></li>
+                            </ul>
+                          </nav>
+                          <div class="col-md-11 col-md-offset-1">
+                            <div class="row">
+                              <div class="portfolio-items isotopeWrapper clearfix" id="4">
+							  
+                                <article class="col-md-5 col-xs-5 isotopeItem 2014">
+									<div class="portfolio-item">
+										<img src="img/previous/CS14Web.png" alt="Sitio web del Concierto Solidario de los Jóvenes del 2014" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">2014 || Sitio web</a></h5>
+												<a href="/old/2014" target="_blank" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+                                
+                                
+                               <article class="col-md-5 col-xs-5 isotopeItem 2013">
+									<div class="portfolio-item">
+										<img src="img/previous/CS13Web.png" alt="Sitio web del Concierto Solidario de los Jóvenes del 2013" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">2013 || Sitio web</a></h5>
+												<a href="/old/2013" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+
+                                <article class="col-md-5 col-xs-5 isotopeItem 2014">
+									<div class="portfolio-item">
+										<img src="img/previous/CS14Galeria.jpg" alt="Galería del Concierto Solidario de los Jóvenes del 2014" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">2014 || Galería</a></h5>
+												<a href="https://www.facebook.com/media/set/?set=a.10153934150535711.1073741861.75660065710&type=3" target="_blank" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>
+								
+								
+                                <article class="col-md-5 col-xs-5 isotopeItem 2013">
+									<div class="portfolio-item">
+										<img src="img/previous/CS13Galeria.jpg" alt="Galería del Concierto Solidario de los Jóvenes del 2013" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">2013 || Galería</a></h5>
+												<a href="https://www.facebook.com/media/set/?set=a.10152634166430711.1073741829.75660065710&type=3" target="_blank" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+											 </div>										   
+										 </div>
+									</div>
+                                </article>								
+								
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
+                                </div>
+                                        
+							</div>
+                                     
 
-  </head>
-  <body>
-  
-  
-  <section class="wrapper">
-    <div class="barra"></div>
+							</div>
+                        </div>
+				
+			</div>
+		</section>
 
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Concierto Solidario de los Jóvenes</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Inicio</a></li>
-            <li><a href="motivo.html">¿Por qué?</a></li>
-            <li><a href="concierto.html">Concierto</a></li>
-            <li><a href="entradas.html">Compra de entradas</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Edición 2013<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.concierto-solidario.es/old">Concierto 2013</a></li>
-                <li class="divider"></li>
-                <li><a href="https://www.facebook.com/media/set/?set=a.10152634166430711.1073741829.75660065710&type=1">Galería</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </nav>
+		<!-- Colabora -->
+		<section id="section-colabora" class="section appear clearfix">
+			<div class="container">
+				
+				<div class="row mar-bot40">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Organizado por:</h2>
+							<a href="http://www.ayete.es" alt"Colegio Mayor Ayete" target="_blank"><img class="col-md-2 col-xs-3 col-xs-offset-2 col-md-offset-3 img-responsive" src="img/logoayete.png" alt="Logo del Colegio Mayor Ayete"></a>
+							<a href="http://www.caritasgipuzkoa.org/" alt"Cáritas Guipúzcoa" target="_blank"><img alt="logotipo de cáritas guipúzcoa" class="col-md-2 col-xs-3 col-xs-offset-2 col-md-offset-2 img-responsive" src="img/caritas_blanco.png"></a>
+						</div>
+				</div>
+				
+				<div class="row mar-bot40">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Con la colaboración de:</h2>
+							<a href="http://www.orfeondonostiarra.org/es/" alt"Orfeón Donostiarra" target="_blank"><img class="col-md-2 col-xs-3 col-xs-offset-2 col-md-offset-3 img-responsive" src="img/logoorfeon.png" alt="Logo del Orefón Donostiarra"></a>
+							<a href="http://musikene.eus/" alt"Musikene" target="_blank"><img class="col-md-2 col-xs-3 col-xs-offset-2 col-md-offset-2 img-responsive" alt="Logo de Musikene" src="img/LogoMusikeneBlanco.png">
+						</div>
+				</div>
+				
+				<div class="row mar-bot40">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Patrocinado por:</h2>
+							<a href="http://www.tecnun.es/" alt="Tecnun, Escuela Superior de Ingenieros de la Universidad de Navarra" target="_blank"><img class="col-md-2 col-xs-3 col-xs-offset-2 col-md-offset-3 img-responsive" src="img/logoTecnun.png" alt="Tecnun, Universidad de Navarra"></a>
+							<a href="http://www.kursaal.com.es/" alt="Kursaal" target="_blank"><img class="col-md-2 col-xs-3 col-xs-offset-2 col-md-offset-2 img-responsive" src="img/logoKursaal.png" alt="Logo del Kursaal">
+						</div>
+				</div>
+				<div class="row mar-bot40">
+						<div class="section-header">
+							<a href="http://www.diariovasco.com/" alt="Diario Vasco" target="_blank"><img class="col-md-3 col-xs-4  img-responsive" src="img/DiarioVasco.jpg" style="margin-top: 40px" alt="Logo del Diario Vasco"></a>
+							<a href="http://www.angulas-aguinaga.es/" alt="Angulas Aguinaga" target="_blank"><img class="col-md-2 col-xs-3 col-xs-offset-1 col-md-offset-2 img-responsive" src="img/logoAA.png" alt="Angulas Agunaga"></a>
+              <a href="http://www.grupodelta.net/" alt="Grupo Delta, Global partner. Imprenta" target="_blank"><img class="col-md-2 col-xs-3 col-xs-offset-1 col-md-offset-2 img-responsive" src="img/logoGD.png" style="margin-top: 40px" alt="Grupo Delta, Global Partner"></a>
+						</div>
+				</div>
 
-<!--Jumbotron
-    ================================-->
-    
-    <article class="jumbotron">
-      <h1>Tienes techo y comida</h1>
-      <h1 id="ysi">¿y si no lo tuvieras?</h1>
-      <h1>Piénsalo y actúa</h1>
-    </article>
-    <article class="main">
-      <section class="foto row">
-        <img class="col-md-4 img-responsive" src="img/tenor.jpg" alt="Tenor en el Concierto Solidario de los Jóvenes">
-        <div class="text col-md-8">
-          <a href="entradas.html" class="no-deco" style="text-decoration:none"><h2>¿Qué es el Concierto Solidario de los Jóvenes?</h2></a>
-          <p>El Concierto Solidario es una iniciativa promovida y desarrollada por jóvenes universitarios comprometidos con la sociedad. Conscientes de la actual situación económica, e impulsados por la conciencia social del Colegio Mayor Ayete, hemos decidido no permanecer impasibles. Y por ello, a través de este Concierto, queremos hacer nuestra aportación para que las personas que peor lo están pasando a causa de la crisis, parados y desahuciados, puedan salir adelante. Los beneficios del concierto son destinados a las actividades que Caritas Gipuzkoa desarrolla con esas personas.</p>
-          <h4>28 de Febrero de 2014, a las 20:00 en la Basílica de Santa María del Coro, San Sebastián - Donostia</h4>
-        </div>
-      </section>
-      
-      <section class="foto row">
-        <div class="text col-md-8">
-          <a href="motivo.html" class="no-deco" style="text-decoration:none"><h2>Solidaridad</h2></a>
-          <p>La componente vital de este evento es la solidaridad. Esta edición, como en la anterior, destinará los beneficios a Caritas Gipuzkoa para el programa de personas sin hogar. Más en concreto para el centro de acogida Aterpe.</p>
-        </div>
-        <img class="col-md-4 img-responsive circulares" src="img/dirigiendo.jpg" alt="Dirigiendo el Concierto Solidario de 2013">
-
-      </section>
-      
-      <section class="foto row">
-        <img class="col-md-4 img-responsive circulares" src="img/violines.jpg" alt="violines en el Concierto Solidario de los Jóvenes">
-          <div class="text col-md-8">
-          <a href="concierto.html" class="no-deco" style="text-decoration:none"><h2>Sobre el concierto</h2></a>
-          <p>El Colegio Mayor Ayete ha venido organizando el concierto solidario de los jóvenes desde hace siete años. La última edición fue a cargo de la Orquesta de Musikene y la Coral de Bilbao en el Kursaal de San Sebastián. Este año ha sido organizado con la colaboración del Orfeón Donostiarra que hará un programa exclusivo en Santa María del Coro.</p>
-        </div>
-      </section>
-
-    </article>
-    
-    <article class="mentions">
-      <section class="organizers row">
-        <h3>En beneficio de:</h3>
-        <a href="http://www.caritasgipuzkoa.org/" class="logopie" >
-          <img src="img/logocaritas.png" alt="Cáritas" class="img-responsive" id="caritas">
-        </a>
-      </section>
-      <section class="organizers row">
-        <h3>Organizado por:</h3>
-        <a href="http://www.ayete.es" class="col-md-3 col-md-offset-1 logopie">
-          <img src="img/logoayete.png" alt="Colegio Mayor Ayete" class="img-responsive">
-        </a>
-        <a href="http://www.orfeondonostiarra.org/" class="col-md-3  logopie">
-          <img src="img/logoorfeon.png" alt="Orfeón Donostiarra" class="img-responsive">
-        </a>
-        <a href="http://www.tecnun.es" class="col-md-3 logopie">
-          <img src="img/logotecnun.png" alt="Tecnun Escuela de Ingenieros de la Universidad de Navarra" class="img-responsive">
-        </a>
-      </section>
-      <section class="sponsors row">
-        <h3>Con la colaboración de:</h3>
-
-        <a href="http://www.tamadocumentacion.com/" class="col-md-3 col-md-offset-2 logopie">
-          <img src="img/tama.png" alt="Impresiones Tama" class="img-responsive">
-        </a>
-        <a href="http://www.ticketea.com/" class="col-md-3 col-md-offset-1 logopie">
-          <img src="img/logoticketea.png" alt="Ticketea" class="img-responsive">
-        </a>
-      </section>
-    </article>
-    
-    <footer>
-      <article class="pie row">
+				
+			</div>
+		</section>
+		
+	<section id="footer" class="section footer">
+		<div class="container">
+      <article class="row">
         <section class="social col-md-3">
-          <h3>Síguenos en:</h3>
-          <div class="logos row">
-            <a href="https://twitter.com/CSolidarioDSS">
-              <span class="fa-stack fa-lg change col-md-4">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x"></i>
-              </span>
-            </a>
-            
-            <a href="https://es-es.facebook.com/Ayete">
-              <span class="fa-stack fa-lg change col-md-4">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x"></i>
-              </span>
-            </a>
-            
-            <a href="http://www.youtube.com/watch?v=6QVUM6T6hTY">
-            <span class="fa-stack fa-lg change col-md-4">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-youtube fa-stack-1x"></i>
-            </span>
-            </a>
-          </div>
-          <h3>O escríbenos en:</h3>
-          <a href="mailto:info@concierto-solidario.es" target="_top"><h2 class="especial">info@concierto-solidario.es</h2></a>
+          <h3>Contacto:</h3>
+            <ul class="social-network social-circle">
+              <li><a href="https://es-es.facebook.com/Ayete" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/CSolidarioDSS" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.youtube.com/watch?v=6QVUM6T6hTY" target="_blank" class="icoGoogle" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="mailto:info@conciertosolidario.org" class="icoLinkedin" title="E-Mail"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+            <p style="margin-top: 20px;font-size: large;">O escríbenos a:</p>
+            <p>info@conciertosolidario.org</p>		
         </section>
-        <section class="entries col-md-5">
+        <section class="text-center entries col-md-5">
           <h3>Quedan</h3>    
           <!--<section class="countdown">
             <div><h2 id="d">:</h2></div>
@@ -183,28 +371,144 @@
         </section>
         
         <section class="twitter col-md-4">
-          <h2>Tweets de <a href="https://twitter.com/CSolidarioDSS">@CSolidarioDSS</a></h2>
+          <h3>Tweets de <a href="https://twitter.com/CSolidarioDSS">@CSolidarioDSS</a></h3>
           <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/CSolidarioDSS" data-chrome="noheader nofooter transparent" data-widget-id="424686921269252096">.</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </section>
       </article>
-        <section class="row subpie">
-          <h1>Ricardo José García. 2013. Source code available at <a href="https://github.com/rjgarciam/Concierto-Solidario">Github</a></h1>
-        </section>
-    </footer>
+		</div>
 
+	</section>
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+	
+	
+	
+	<!---------------------------------------- 
+  	
+      MODALS  	
       
-    
-  </section>
+  	--------------------------------------->
+<div class="modal fade" id="ModalMusikene" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Musikene</h4>
+      </div>
+      <div class="modal-body">
+<p>Musikene es el Centro Superior de Música del País
+Vasco, cuyo objeto es la promoción, sin ánimo de
+lucro, de las iniciativas y actividades relacionadas
+con la enseñanza de la música.</p>
 
-    <!--Fin de la web (Jquery y archivos de bootstrap
-    ================================-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!--Countdown Code
-    <script src='js/script.js'></script>
-    -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<p>En los últimos años ha tenido como directores
+invitados a músicos de la talla de Lutz Köhler,
+Salvador Mas, Michael Thomas, Manel Valdivieso,
+Enrique García Asensio, Juan Luis Martínez, Pablo
+González, José Luis Estellés, Juanjo Mena o Simon
+Bernardini y ha acometido diversas grabaciones
+para el sello discográfico de Musikene.</p>
+
+<p>Las formaciones orquestales de Musikene
+han tenido diversas actuaciones, entre las que
+destacan el concierto inaugural de la Quincena
+Musical 2004 en el Auditorio Kursaal de DonostiaSan
+Sebastián, el Concierto de Navidad de 2005,
+grabado y retransmitido por ETB, su participación
+en el Festival Internacional de Música y Danza de
+Granada de 2006, Auditorio de Zaragoza en 2007 y
+los conciertos ofrecidos en el Auditorio Nacional
+de Madrid y en la sala Flagey de Bruselas.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ModalOrfeon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Orfeón Donostiarra</h4>
+      </div>
+      <div class="modal-body">
+        <p>José Antonio Sainz Alfaro asume la dirección del
+Orfeón Donostiarra en 1987, tras el fallecimiento
+repentino del maestro Ayestarán, con quien había
+colaborado estrechamente como subdirector del
+coro. En esta etapa, José Antonio Sainz renueva el
+coro con voces jóvenes, manteniendo el alto nivel
+musical que los directores precedentes habían
+alcanzado.</p>
+
+<p>Además, cuentan con la ayuda de los solistas Lilla Horti (soprano), Lucía Gómez (mezzosoprano), Xabier Anduaga (tenor) y Jesús García Aréjula, (barítono).</p>
+<p>Este año han querido trabajar otra vez con nosotros
+para el concierto solidario y no defraudará. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="FilaCero" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Fila Cero</h4>
+      </div>
+      <div class="modal-body">
+        <p>Si no puede asistir al concierto, pero quiere colaborar con nosotros, no dude en donar la cantidad que elija como <i>Fila Cero</i>. Los números de cuenta disponibles son los siguientes:</p>
+        <ul>
+          <li style="font-weight:400"><b>Banco Popular:</b> ES45 0075 0019 12 0500506136</li>
+          <li style="font-weight:400"><b>BBVA:</b> ES32 0182 5709 47 0012177906</li>
+          <li style="font-weight:400"><b>Sabadell-Gipuzcoano:</b> ES60 0081 4353 33 0001090519</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>		
+
+
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>		
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/validate.js"></script>
+    <script src="js/main.js"></script>
+
+  <script src='js/script.js'></script>
+
+<script src="js/jquery.cookie.js"></script> <!-- jQuery cookie --> 
+<script src="js/jquery.cookiecuttr.js"></script>
+<script type="text/javascript">
+$(document).ready(function () { 
+  $.cookieCuttr( 
+    {
+    cookieAnalytics: false,
+    cookiePolicyLink: 'http://concierto-solidario.es/legal.html',
+    cookieMessage: 'Usamos cookies propias y de terceros para mejorar la navegación. Si continua navegando consideramos que acepta el uso de cookies <a href="{{cookiePolicyLink}}" title="aviso legal" target="_blank">Política de Cookies</a>.',
+    }
+  );
+}); 
+</script>
+    
+	</body>
 </html>
